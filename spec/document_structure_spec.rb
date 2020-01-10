@@ -7,4 +7,5 @@ RSpec.describe "Well-Formed HTML Document" do
     index_file_found = File.exists?("index.html")
     expect(index_file_found).to be, "Make sure you have an index.html file"
   end
+
 end
